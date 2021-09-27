@@ -1,0 +1,36 @@
+
+@import url(https://fonts.googleapis.com/css?family=Jost300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+html{
+    font-family: jost;
+}
+body{
+  background: url(./images/embossed-paper.png);
+  background-color:rgba( 32,158,187,0.07) ;
+}
+.card{
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+  
+}
+img{
+    border-radius: 50%;
+}
+.main-div{
+    display: grid;
+    place-items: center;
+}
+.music-controls .fas{
+    color: #111111;
+    cursor: pointer;
+}
+.music-controls .fas:hover{
+    color: grey;
+}
+.anime{
+    animation: rotatePlayer 3s linear infinite;
+}
+@keyframes  rotatePlayer{
+    from {transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
